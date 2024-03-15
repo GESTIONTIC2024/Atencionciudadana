@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+  font-family: 'sarabun';
+  background-color: #000016;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #183850;
+  color: #ffffff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+  height: 135px;
+}
+
+/* Estilos para el cuerpo principal */
+main {
+  padding: 20px 0;
+}
+
+.card {
+  background-color: #122a42;
+  border: 1px solid #0c1c33;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+/* Estilos para los botones */
+.btn-primary {
+  background-color: #183850;
+  border-color: #183850;
+  width: 100px;
+  
+}
+
+.btn-primary:hover {
+  background-color: #122a42;
+  border-color: #122a42;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #000016;
+  color: #ffffff;
+  text-align: center;
+  height: 50px;
+  
+}
+
+.logotipo img {
+  width: 300px;
+  height: 70px;
+}
+
+.logotipo {
+  margin-left: auto; /* Esto empujará el logotipo hacia la derecha */
+  display: flex; /* Aplicamos flexbox al logotipo */
+  justify-content: center;
+}
+
+/* Agrega transiciones suaves a las tarjetas */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Aplica una sombra al pasar el ratón sobre las tarjetas */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Establece un fondo semi-transparente en las tarjetas */
+.card-body {
+  background-color:000016;
+}
+
+/* Establece la opacidad de los títulos de las tarjetas */
+.card-title {
+  opacity: 0.8;
+}
+
+/* Añade una transición suave al pasar el ratón sobre los botones */
+.card button:hover {
+  background-color: #007bff;
+}
+
+/* Define una animación para los botones */
+.card button {
+  transition: background-color 0.3s ease;
+}
+
+/* Añade una sombra suave al contenedor principal de la página */
+.container {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}

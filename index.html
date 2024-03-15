@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLATAFORMA DE ATENCIÓN CIUDADANA - PQRS</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabecera -->
+  <header class="container-fluid text-light py-4">
+    <div class="container">
+      <h1 class="text-center">PLATAFORMA DE ATENCIÓN CIUDADANA - PQRS</h1>
+      <div class="logotipo">
+        <img src="assets/logotipo.png" alt="Logo de la Plataforma de Atención Ciudadana">
+      </div>
+    </div>
+  </header>
+
+  <!-- Contenido Principal -->
+  <main class="container mt-4">
+    <div class="row">
+      <!-- Tarjeta de Peticiones -->
+      <div class="col-lg-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Peticiones</h5>
+            <p class="card-text">Realiza una Petición sobre algún servicio o situación.</p>
+            <button class="btn btn-primary btn-block" onclick="confirmAction('peticiones')">Enviar</button>
+          </div>
+        </div>
+      </div>
+      <!-- Tarjeta de Quejas -->
+      <div class="col-lg-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Quejas</h5>
+            <p class="card-text">Realiza una Queja sobre algún servicio o situación.</p>
+            <button class="btn btn-primary btn-block" onclick="confirmAction('quejas')">Enviar</button>
+          </div>
+        </div>
+      </div>
+      <!-- Tarjeta de Reclamos -->
+      <div class="col-lg-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Reclamos</h5>
+            <p class="card-text">Reporta algún Reclamo que tengas.</p>
+            <button class="btn btn-primary btn-block" onclick="confirmAction('reclamos')">Enviar</button>
+          </div>
+        </div>
+      </div>
+      <!-- Tarjeta de Sugerencias -->
+      <div class="col-lg-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Sugerencias</h5>
+            <p class="card-text">Envía tus sugerencias para mejorar nuestros servicios.</p>
+            <button class="btn btn-primary btn-block" onclick="confirmAction('sugerencias')">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Pie de Página -->
+  <footer class="container-fluid text-light py-3">
+    <div class="container">
+      <p class="text-center">&copy; 2024 OFICINA DE TIC</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
