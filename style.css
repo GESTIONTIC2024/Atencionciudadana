@@ -33,7 +33,6 @@ main {
   border: 1px solid #0c1c33;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px; /* Añade espacio entre las tarjetas */
 }
 
 .card-title {
@@ -51,7 +50,6 @@ main {
 .btn-primary {
   background-color: #183850;
   border-color: #183850;
-  width: 100%; /* Los botones ocupan todo el ancho */
 }
 
 /* Estilos para el pie de página */
@@ -59,7 +57,7 @@ footer {
   background-color: #000016;
   color: #ffffff;
   text-align: center;
-  padding: 20px 0; /* Añade espacio en el pie de página */
+  padding: 20px 0;
 }
 
 /* Agrega transiciones suaves a las tarjetas */
