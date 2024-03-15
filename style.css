@@ -12,16 +12,20 @@ header {
   background-color: #183850;
   color: #ffffff;
   padding: 20px 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 150px;
-  height: 135px;
+}
+
+.logotipo img {
+  width: 200px; /* Ajusta el tamaño del logo para dispositivos móviles */
+  height: auto; /* Hace que la altura sea automática para mantener la proporción */
+}
+
+.logotipo {
+  text-align: center; /* Centra el logo */
 }
 
 /* Estilos para el cuerpo principal */
 main {
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .card {
@@ -29,6 +33,7 @@ main {
   border: 1px solid #0c1c33;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Añade espacio entre las tarjetas */
 }
 
 .card-title {
@@ -46,13 +51,7 @@ main {
 .btn-primary {
   background-color: #183850;
   border-color: #183850;
-  width: 100px;
-  
-}
-
-.btn-primary:hover {
-  background-color: #122a42;
-  border-color: #122a42;
+  width: 100%; /* Los botones ocupan todo el ancho */
 }
 
 /* Estilos para el pie de página */
@@ -60,19 +59,7 @@ footer {
   background-color: #000016;
   color: #ffffff;
   text-align: center;
-  height: 50px;
-  
-}
-
-.logotipo img {
-  width: 300px;
-  height: 70px;
-}
-
-.logotipo {
-  margin-left: auto; /* Esto empujará el logotipo hacia la derecha */
-  display: flex; /* Aplicamos flexbox al logotipo */
-  justify-content: center;
+  padding: 20px 0; /* Añade espacio en el pie de página */
 }
 
 /* Agrega transiciones suaves a las tarjetas */
@@ -88,7 +75,7 @@ footer {
 
 /* Establece un fondo semi-transparente en las tarjetas */
 .card-body {
-  background-color:000016;
+  background-color: #000016; /* Se corrigió el color */
 }
 
 /* Establece la opacidad de los títulos de las tarjetas */
@@ -97,12 +84,13 @@ footer {
 }
 
 /* Añade una transición suave al pasar el ratón sobre los botones */
-.card button:hover {
-  background-color: #007bff;
+.btn-primary:hover {
+  background-color: #122a42;
+  border-color: #122a42;
 }
 
 /* Define una animación para los botones */
-.card button {
+.btn-primary {
   transition: background-color 0.3s ease;
 }
 
