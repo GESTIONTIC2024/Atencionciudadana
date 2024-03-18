@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-  font-family: 'sarabun';
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #000016;
   color: #ffffff;
   margin: 0;
@@ -15,7 +15,7 @@ header {
 }
 
 .logotipo img {
-  width: 200px; /* Ajusta el tamaño del logo para dispositivos móviles */
+  width: 300px; /* Ajusta el tamaño del logo para dispositivos móviles */
   height: auto; /* Hace que la altura sea automática para mantener la proporción */
 }
 
@@ -30,13 +30,13 @@ main {
 
 .card {
   background-color: #122a42;
-  border: 1px solid #0c1c33;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #0c1c33;
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgb(204, 204, 204);
 }
 
 .card-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.25rem;
   color: #ffffff;
 }
@@ -44,13 +44,28 @@ main {
 .card-text {
   font-size: 1rem;
   color: #ffffff;
+  
 }
 
 /* Estilos para los botones */
 .btn-primary {
-  background-color: #183850;
-  border-color: #183850;
+  background-color: #122a42; /* Color de fondo verde */
+  border: #122a42; /* Quitamos el borde para un aspecto más limpio */
+  color: white; /* Texto en blanco para mayor contraste */
+  padding: 6px 12px; /* Aumentamos el padding para hacerlo más visible y cómodo */
+  text-align: center; /* Centramos el texto horizontalmente */
+  text-decoration: none; /* Quitamos cualquier decoración de texto */
+  display: inline-block; /* Hacemos que el botón se comporte como un bloque en línea */
+  font-size: 14px; /* Tamaño de fuente */
+  margin: 4px 2px; /* Margen alrededor del botón */
+  cursor: pointer; /* Cambiamos el cursor al pasar sobre el botón */
+  border-radius: 8px; /* Agregamos bordes redondeados */
+  transition: background-color 0.9s; /* Transición suave para el cambio de color de fondo */
+  background-color: #183850; /* Cambio de color de fondo al pasar el mouse */
+
 }
+
+
 
 /* Estilos para el pie de página */
 footer {
@@ -78,7 +93,7 @@ footer {
 
 /* Establece la opacidad de los títulos de las tarjetas */
 .card-title {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 /* Añade una transición suave al pasar el ratón sobre los botones */
@@ -87,12 +102,3 @@ footer {
   border-color: #122a42;
 }
 
-/* Define una animación para los botones */
-.btn-primary {
-  transition: background-color 0.3s ease;
-}
-
-/* Añade una sombra suave al contenedor principal de la página */
-.container {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
