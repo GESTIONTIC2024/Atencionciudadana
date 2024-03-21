@@ -52,12 +52,12 @@ main {
   background-color: #122a42; /* Color de fondo verde */
   border: #122a42; /* Quitamos el borde para un aspecto más limpio */
   color: white; /* Texto en blanco para mayor contraste */
-  padding: 6px 12px; /* Aumentamos el padding para hacerlo más visible y cómodo */
+  padding: 5px 2px; /* Aumentamos el padding para hacerlo más visible y cómodo */
   text-align: center; /* Centramos el texto horizontalmente */
   text-decoration: none; /* Quitamos cualquier decoración de texto */
   display: inline-block; /* Hacemos que el botón se comporte como un bloque en línea */
   font-size: 14px; /* Tamaño de fuente */
-  margin: 4px 2px; /* Margen alrededor del botón */
+  margin: 6px 2px; /* Margen alrededor del botón */
   cursor: pointer; /* Cambiamos el cursor al pasar sobre el botón */
   border-radius: 8px; /* Agregamos bordes redondeados */
   transition: background-color 0.9s; /* Transición suave para el cambio de color de fondo */
@@ -100,5 +100,6 @@ footer {
 .btn-primary:hover {
   background-color: #122a42;
   border-color: #122a42;
+  flex-direction: column-reverse;
 }
 
